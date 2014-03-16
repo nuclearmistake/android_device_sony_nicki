@@ -12,7 +12,7 @@
     "branch": "cm-11.0"
   },
   {
-    "repository": "SlimRoms/device_sony_qcom-common",
+    "repository": "CyanogenMod/device_sony_qcom-common",
     "target_path": "device/sony/qcom-common",
     "remote": "github",
     "branch": "cm-11.0"
