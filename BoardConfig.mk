@@ -113,9 +113,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_CUSTOM_BOOTIMG_MK := device/sony/nicki/custombootimg.mk
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/sony/nicki/recovery/recovery_keys.c
 BOARD_CUSTOM_GRAPHICS := ../../../device/sony/nicki/recovery/graphics.c
-BOARD_HAS_LOW_RESOLUTION := true
-BRIGHTNESS_SYS_FILE := /sys/class/leds/lcd-backlight/brightness
-TARGET_COMMON_NAME := nicki
 
 
 # GPS
