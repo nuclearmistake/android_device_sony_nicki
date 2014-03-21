@@ -153,7 +153,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/system/lib/libril-qc-qmi-1.so \
     ril.subscription.types=NV,RUIM \
     telephony.lteOnCdmaDevice=0 \
-    ro.use_data_netmgrd=true
+    ro.use_data_netmgrd=true \
+    ro.telephony.call_ring.multiple=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.cabl=0 \
@@ -181,9 +182,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
-
-ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.secure=0
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
 
