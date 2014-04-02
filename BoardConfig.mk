@@ -110,7 +110,8 @@ BOARD_USES_QC_TIME_SERVICES := true
 
 TARGET_POWERHAL_NO_TOUCH_BOOST := true
 
-#BOARD_USES_QCOM_PERF_LIBS := true
+# Dalvik Optimisations from CAF
+BOARD_USES_QCOM_PERF_LIBS := true
 
 # Override healthd HAL
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
