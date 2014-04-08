@@ -1,6 +1,6 @@
 [
   {
-    "repository": "rebelos/android_Kernel_sony_msm8x27",
+    "repository": "rebelos/kernel_sony_msm8x27",
     "target_path": "kernel/sony/msm8x27",
     "remote": "github",
     "branch": "kk4.4"
@@ -18,10 +18,10 @@
     "branch": "kk4.4"
   },
   {
-    "repository": "TheMuppets/proprietary_vendor_sony",
+    "repository": "SlimRoms/proprietary_vendor_sony",
     "target_path": "vendor/sony",
     "remote": "github",
-    "branch": "cm-11.0"
+    "branch": "kk4.4"
   },
   {
     "repository": "CyanogenMod/android_hardware_sony_DASH",
